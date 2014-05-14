@@ -6,7 +6,9 @@ The best and easiest way to install Sentry is with [Composer](http://getcomposer
 
 Open your `composer.json` file and add the following to the `require` array:
 
-	"cartalyst/sentry": "2.1.*"
+	"cartalyst/sentry": "~3"
+
+> **Note:** This version is still in development, make sure that you set `min-stability` to `dev` on your `composer.json` file.
 
 > **Note:** Make sure that after the required changes your `composer.json` file is valid by running `composer validate`.
 
